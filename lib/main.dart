@@ -1,3 +1,4 @@
+import 'package:ds_stores/Cart/cart_screen.dart';
 import 'package:ds_stores/home_page_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -14,11 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
-        primarySwatch: Colors.blue,
-      ),
-      home:  HomePage(),
+          // primarySwatch: Colors.blue,
+          ),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
+      routes: {
+        "homePage": (context) => HomePage(),
+        "cartPage": (context) => CartPage()
+      },
     );
   }
 }
