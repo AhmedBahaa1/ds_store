@@ -95,9 +95,9 @@ class HomePage extends StatelessWidget {
         color: appColor,
         height: 50,
         backgroundColor: Colors.transparent,
-        items: <Widget>[
+        items: [
           Icon(Icons.home, size: 30, color: Colors.white),
-          Icon(CupertinoIcons.cart_fill, size: 30, color: Colors.white),
+          Icon( CupertinoIcons.cart_fill, size: 30, color: Colors.white,),
           Icon(
             Icons.list,
             size: 30,
