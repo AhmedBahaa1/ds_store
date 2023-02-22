@@ -67,7 +67,7 @@ class CartItemSamples extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(
                       Icons.delete,
-                      color: Colors.red,
+                      color: Colors.redAccent,
                     ),
                   ),
                   Row(
