@@ -56,6 +56,7 @@ class HomePage extends StatelessWidget {
                 ]),
               ),
             ),
+            
             Padding(
               padding: const EdgeInsets.only(
                   top: 20, right: 20, left: 20, bottom: 10),
